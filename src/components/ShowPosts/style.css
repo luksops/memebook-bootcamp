@@ -1,0 +1,72 @@
+.post-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+.avatar-name-date{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1%;
+}
+
+.name-date {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.name-date > span {
+  margin-bottom: 10%;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.date {
+  color: lightgray;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 2%;
+}
+
+.post-container > p {
+  margin: 0 2% 2% 2%;
+
+}
+
+.comment-container{
+  border-top: 1px solid #eeeeee;  
+}
+
+.comment {
+  display: flex;
+  flex-direction: row;
+  margin: 2% 1%;
+}
+
+.comment > p {
+  background-color: #f2f2f2;
+  flex-grow: 1;
+  border-radius: 15px;
+  padding: 1%;
+  font-size: 16px;
+}
+
+p > span {
+  display: block;
+  font-size: 13px;
+  font-weight: 900;
+  margin-bottom: 2px;
+}
